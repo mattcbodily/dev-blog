@@ -1,0 +1,22 @@
+.landing {
+    height: calc(100vh - 50px);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.author-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.post-link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-link img {
+    height: 75px;
+    border-radius: 10px;
+}
