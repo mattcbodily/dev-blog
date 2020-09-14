@@ -3,7 +3,20 @@
         "id": 1,
         "title": "Keep it Simple, Stupid",
         "date": "September 12, 2020",
-        "image": "",
-        "content": ""
+        "image": "https://media.dayoftheshirt.com/images/shirts/LGqD9/shirtpunch_baby-mando-shirtpunch_1577855534.large.png",
+        "content": [
+            {
+                "paragraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, nisl sit amet luctus iaculis, tellus diam ultrices est, a faucibus nunc quam vitae mi. Quisque iaculis ultrices tempus. Fusce varius pulvinar lobortis. Vestibulum ex nisl, fringilla nec pellentesque ac, ornare nec massa. Nunc quis pellentesque libero. Mauris et sollicitudin ante, eu gravida leo. Fusce cursus quam varius, pellentesque est in, egestas urna. Etiam justo turpis, pulvinar et lorem et, elementum pulvinar diam. Aenean a magna enim. Phasellus in dolor eros."
+            },
+            {
+                "paragraph2": "Pellentesque rhoncus rutrum egestas. Nam non sagittis nibh. Aliquam euismod dignissim lorem, vitae eleifend enim egestas sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris vel mollis nisi, ac aliquam tortor. Maecenas quis lobortis sapien. Nunc a finibus ante."
+            },
+            {
+                "image1": "https://starwarsblog.starwars.com/wp-content/uploads/2019/11/the-mandalorian-everything-we-know-armor.jpg"
+            },
+            {
+                "paragraph3": "In at fringilla nunc, ac venenatis eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam tincidunt diam a diam sagittis bibendum. Phasellus eu vulputate nisi. Quisque consectetur vestibulum porta. Morbi blandit purus arcu, ut volutpat ex volutpat vel. Donec cursus massa fringilla leo maximus, id rutrum quam tincidunt. Integer sit amet facilisis libero, quis maximus quam. Aliquam malesuada viverra arcu vel commodo. Duis eget vulputate lectus, ullamcorper dictum arcu."
+            }
+        ]
     }
 ]

@@ -14,7 +14,7 @@ export default props => {
                 {posts.map(post => (
                     <Link key={post.id} to={`/post/${post.id}`}>
                         <div className='post-link'>
-                            <img src='https://media.dayoftheshirt.com/images/shirts/LGqD9/shirtpunch_baby-mando-shirtpunch_1577855534.large.png' alt={`${post.title}`}/>
+                            <img src={post.image} alt={`${post.title}`}/>
                             <div>
                                 <h4>{post.title}</h4>
                                 <p>{post.date}</p>
