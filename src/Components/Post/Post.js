@@ -23,6 +23,13 @@ export default props => {
                     }
                 }
             })}
+            <section className='author-info'>
+                <img src='https://i.kym-cdn.com/photos/images/original/001/516/899/f31.jpg' alt='Matt Bodily'/>
+                <section>
+                    <p>Matt Bodily is a Web Developer, Educator, and Music Enthusiast.</p>
+                    <p>Connect with him here!</p>
+                </section>
+            </section>
         </section>
     )
 }

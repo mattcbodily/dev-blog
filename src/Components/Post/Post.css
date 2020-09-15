@@ -2,6 +2,11 @@
     padding: 0 20px;
 }
 
+.post h1 {
+    margin: 12px 0;
+    letter-spacing: 2px;
+}
+
 .main-post-img {
     width: 100%;
 }
@@ -14,4 +19,23 @@
     font-size: 18px;
     text-align: justify;
     margin: 25px 0;
+    line-height: 24px;
+}
+
+.author-info {
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-info img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.author-info section {
+    width: 185px;
+    text-align: justify;
 }
