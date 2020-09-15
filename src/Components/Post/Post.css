@@ -1,0 +1,17 @@
+.post {
+    padding: 0 20px;
+}
+
+.main-post-img {
+    width: 100%;
+}
+
+.mid-post-img {
+    width: 100%;   
+}
+
+.post-paragraph {
+    font-size: 18px;
+    text-align: justify;
+    margin: 25px 0;
+}

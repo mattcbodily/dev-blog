@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import posts from '../../posts.json';
+import './Post.css';
 
 export default props => {
     let [post, setPost] = useState({});
@@ -10,15 +11,15 @@ export default props => {
     }, [props.match.params.id])
 
     return (
-        <section>
+        <section className='post'>
             <h1>{post.title}</h1>
-            <img src={post.image} alt={post.title}/>
+            <img className='main-post-img' src={post.image} alt={post.title}/>
             {post.content?.map((content, i) => {
                 for(let key in content){
                     if(key.includes('image')){
-                        return <img key={i} src={content[key]} alt={content.alt}/>
+                        return <img key={i} className='mid-post-img' src={content[key]} alt={content.alt}/>
                     } else if(key.includes('paragraph')){
-                        return <p key={i}>{content[key]}</p>
+                        return <p key={i} className='post-paragraph'>{content[key]}</p>
                     }
                 }
             })}
