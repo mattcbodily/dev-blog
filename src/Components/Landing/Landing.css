@@ -1,7 +1,7 @@
 .landing {
     height: calc(100vh - 50px);
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
 }
 
@@ -12,6 +12,12 @@
 }
 
 .post-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.post-link-flex {
     display: flex;
     justify-content: space-around;
 }
@@ -19,4 +25,16 @@
 .post-link img {
     height: 75px;
     border-radius: 10px;
+}
+
+.post-info {
+    text-align: left;
+}
+
+.post-info h4, .post-info p {
+    margin: 5px 0;
+}
+
+#description {
+    color: gray;
 }

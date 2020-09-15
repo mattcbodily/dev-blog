@@ -12,11 +12,12 @@ export default props => {
             <h3>My Posts</h3>
             <section className='post-list'>
                 {posts.map(post => (
-                    <Link key={post.id} to={`/post/${post.id}`}>
-                        <div className='post-link'>
+                    <Link key={post.id} className='post-link' to={`/post/${post.id}`}>
+                        <div className='post-link-flex'>
                             <img src={post.image} alt={`${post.title}`}/>
-                            <div>
+                            <div className='post-info'>
                                 <h4>{post.title}</h4>
+                                <p id='description'>{post.description}</p>
                                 <p>{post.date}</p>
                             </div>
                         </div>
