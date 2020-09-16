@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0px 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background: #293241;
     color: white;
