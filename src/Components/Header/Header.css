@@ -9,3 +9,15 @@
     color: white;
     box-shadow: 0 2px 2px gray;
 }
+
+.nav-links {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
